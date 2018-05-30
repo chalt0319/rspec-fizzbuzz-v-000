@@ -21,5 +21,5 @@ RSpec.configure do |config|
 end
 
 def fizzbuzz(number)
-  if fizzbuzz 
+  if number  
 
