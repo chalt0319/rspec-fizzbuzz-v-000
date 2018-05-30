@@ -7,6 +7,7 @@ def fizzbuzz(number)
     puts "FizzBuzz"
   elsif number == 4 
     puts "nil"
+
 end
 fizz_5 = fizzbuzz(5)
 fizz_15 = fizzbuzz(15)
