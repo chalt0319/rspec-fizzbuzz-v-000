@@ -1,14 +1,12 @@
 def fizzbuzz(number)
   if number % 3 == 0 
     puts "Fizz"
-  elsif number == 5
+  elsif number % 5 == 0
     puts "Buzz"
-  elsif number == 15
+  elsif number % 15 == 0
     puts "FizzBuzz"
-  elsif number == 4 
-    puts "nil"  
   else 
-    puts "none"
+    puts "nil"
   end
 end
 fizz_5 = fizzbuzz(5)
