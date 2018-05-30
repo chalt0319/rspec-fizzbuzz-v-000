@@ -35,4 +35,4 @@ fizzbuzz(3)
 fizzbuzz(5)
 fizzbuzz(15)
 fizzbuzz(4)
-
+fizz_3 = fizzbuzz(3)
