@@ -1,5 +1,5 @@
 def fizzbuzz(number)
-  if number == 3 
+  if number % 3 == 0 
     puts "Fizz"
   elsif number == 5
     puts "Buzz"
